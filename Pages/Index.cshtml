@@ -10,22 +10,8 @@
     <hr />
     <div>Host operating system: @Model.OSVersion</div>
 </div>
-<form id="form1" runat="server">
-    <div>
-        <table class="auto-style1">
-
-            <tr>
-                <td> Password</td>
-                <td>
-                    <asp:TextBox ID="TextBox3" runat="server" TextMode="Password"></asp:TextBox>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
-                </td>
-            </tr>
-        </table>
-    </div>
+<form action="" method="post">
+    <p>password</p>
+    <input type="text" id="password" />
+    <input type="submit" value="Option 1" title="Login" formaction="DoWorkOne" />
 </form>
